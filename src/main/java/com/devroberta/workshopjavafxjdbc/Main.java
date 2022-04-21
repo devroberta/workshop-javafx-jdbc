@@ -5,6 +5,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -14,8 +15,12 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
-            Parent parent = fxmlLoader.load();
-            Scene scene = new Scene(parent);
+            ScrollPane scrollPane = fxmlLoader.load();
+
+            scrollPane.setFitToHeight(true);
+            scrollPane.setFitToWidth(true);
+
+            Scene scene = new Scene(scrollPane);
             stage.setTitle("Sample JavaFX application");
             stage.setScene(scene);
             stage.show();
