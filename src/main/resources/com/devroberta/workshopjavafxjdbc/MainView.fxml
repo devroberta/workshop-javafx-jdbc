@@ -6,9 +6,9 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.VBox?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="306.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devroberta.workshopjavafxjdbc.MainViewController">
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="384.0" prefWidth="474.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.devroberta.workshopjavafxjdbc.MainViewController">
    <content>
-      <VBox prefHeight="283.0" prefWidth="373.0">
+      <VBox prefHeight="335.0" prefWidth="449.0">
          <children>
             <MenuBar>
               <menus>

@@ -8,4 +8,6 @@ module com.devroberta.workshopjavafxjdbc {
     exports com.devroberta.workshopjavafxjdbc;
     exports com.devroberta.workshopjavafxjdbc.util;
     opens com.devroberta.workshopjavafxjdbc.util to javafx.fxml;
+    exports com.devroberta.workshopjavafxjdbc.model.entities;
+    opens com.devroberta.workshopjavafxjdbc.model.entities to javafx.fxml;
 }
