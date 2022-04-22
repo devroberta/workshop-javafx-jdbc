@@ -3,6 +3,7 @@ module com.devroberta.workshopjavafxjdbc {
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
+    requires java.sql;
 
     opens com.devroberta.workshopjavafxjdbc to javafx.fxml;
     exports com.devroberta.workshopjavafxjdbc;
