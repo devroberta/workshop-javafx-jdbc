@@ -14,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("MainView.fxml"));
             ScrollPane scrollPane = fxmlLoader.load();
 
             scrollPane.setFitToHeight(true);
